@@ -1,0 +1,136 @@
+@media screen and (min-width:1177px) and (max-width:1298px) {
+    
+    nav {
+        gap: 4em;
+    }
+
+.nav-list > li > a {
+    font-size: 12pt;
+}
+
+}
+
+@media screen and (min-width:1118px) and (max-width:1203px) {
+    nav {
+        gap: 2em;
+    }
+
+
+    .nav-list > li > a {
+        font-size: 11pt;
+        font-weight: 700;
+    }
+    
+}
+
+@media screen and (min-width:1117px) and (max-width:1118px) {
+    
+    nav {
+        gap: 2em;
+    }
+
+    .nav-list > li > a {
+        font-size: 10pt;
+        font-weight: 700;
+    }
+    
+}
+
+
+@media screen and (min-width:550px) and (max-width:1117px) {
+    
+
+    .nav-button {
+        display: block;
+        border: none;
+        border-top: 1px solid white;
+        width: 32px;
+        height: 2px;
+        cursor: pointer;
+    }
+    
+    .nav-button::before,
+     .nav-button::after {
+        content: "";
+        border: none;
+        display: block;
+        border: 1px solid white;
+        margin-top: 0.5em;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+        background: url(https://www.cursoemvideo.com/wp-content/uploads/2019/08/banner-estudonauta8.jpg);
+        background-size: cover;
+        background-position: top;
+        height: 100%;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+    
+
+    .nav-button {
+        display: block;
+        border: none;
+        border-top: 1px solid white;
+        width: 32px;
+        height: 2px;
+        cursor: pointer;
+    }
+    
+    .nav-button::before,
+     .nav-button::after {
+        content: "";
+        border: none;
+        display: block;
+        border: 1px solid white;
+        margin-top: 0.5em;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    main {
+        background-position: bottom right;
+    }
+
+    .login {
+        margin-left: 0;
+        width: 320px;
+    }
+
+    footer {
+        flex-direction: column;
+        background: url(https://www.cursoemvideo.com/wp-content/uploads/2019/08/banner-estudonauta8.jpg);
+        background-size: cover;
+        background-position: top;
+        height: 100%;
+    }
+
+    .footer-img > img {
+        width: 200px;
+        margin-bottom: 1em;
+    }
+
+    .footer-content > h3 {
+        font-size: 17pt;
+    }
+
+    .footer-content > p {
+        font-size: 11pt;
+        margin-bottom: 2em;
+    }
+
+    hr {
+        display: none;
+    }
+    
+}
+
