@@ -79,6 +79,7 @@ main {
     border-radius: 2em;
     gap: 0.9em;
     max-width: 500px;
+    height: 100%;
     background: var(--cor2);
     padding: 2em;
     margin-left: 4em;
@@ -142,6 +143,7 @@ label[for="checkbox"] {
 .login-btn {
     padding: 1em;
     border-radius: 2em;
+    margin-top: 2em;
     border: none;
     background: var(--cor1);
     color: var(--cor2);
@@ -158,6 +160,7 @@ label[for="checkbox"] {
 .login > a {
     text-decoration: none;
     color: var(--cor6);
+    margin-top: 2em;
 }
 
 footer {
